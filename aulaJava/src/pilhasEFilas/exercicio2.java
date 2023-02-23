@@ -34,6 +34,7 @@ public class exercicio2 {
 
 			case 1:
 
+				leia.nextLine();
 				System.out.println("\nDigite o nome do cliente:");
 				livro = leia.nextLine();
 				livros.push(livro);
@@ -42,6 +43,7 @@ public class exercicio2 {
 
 			case 2:
 
+				leia.nextLine();
 				if (livros.isEmpty()) {
 
 					System.out.println("\nNão há livros na pilha!!");
@@ -56,6 +58,7 @@ public class exercicio2 {
 
 			case 3:
 
+				leia.nextLine();
 				if (livros.isEmpty()) {
 
 					System.out.println("\nNão há livros na pilha!!");
